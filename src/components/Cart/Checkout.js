@@ -43,7 +43,7 @@ const Checkout = (props) => {
       enteredCityIsValid &&
       enteredPostalCodeIsValid;
 
-    if (formIsValid) {
+    if (!formIsValid) {
       return;
     }
 
